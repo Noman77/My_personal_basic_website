@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+*{margin:0;
+padding:0;
+outline:0;}
+
+body
+{
+font-family: 'Roboto', sans-serif;
+font-size:20px;
+line-height:18px;
+color:#000;
+background:url(images/oriental.png)repeat fixed 0 0 #fff;
+}
+.templete{
+	width: 960px;
+	margin:auto;}
+.clear{overflow: hidden;}
+
+
+}
+input[type="submit"]{
+	background-color: #EDD61A;
+    border: 1px solid #2F3D2E;
+    margin: 5px;
+    font-size: 16px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;;
+}
+input[type="submit"]:hover{background:#fff;color:#000;}
+.headersection
+{
+	background:#EDD552;
+	color:#fff;
+}
+.headersection h2{
+    font-size: 46px;
+    text-align: center;
+    color: black;
+    padding-top: 46px;
+    text-shadow: 0px 2px 5px;}
+.logo{
+	width: 430px;
+    float: left;}
+.logo img{
+    width: 100px;
+    padding-bottom: 8px}
+
+.logo p{color:#190D3B}
+.social{    
+	width: 200px;
+    float: right;
+}
+.social a{}
+.social a img{
+    width: 41px;
+    padding-top: 0px;
+    padding-bottom: 36px;}
+.navsection
+{
+	background:#2F3D2E;
+	height:30px;
+	
+	}
+.navsection ul
+{	margin:0;
+	padding:0;
+	list:none
+	}
+.navsection ul li
+{	display:block;
+	float:left;
+	background:#190D3B;
+	margin: 5px;
+	position:relative;
+	
+	}
+.navsection ul li a
+{	color: #CFA536;
+    text-decoration: none;
+    margin: 5px 50px;
+    display: block;
+	
+}
+.navsection ul li a:hover,#active{
+	background:#FEE4E5;
+	color:#333;
+}
+.navsection ul li ul{position:absolute;left:-99999px;}
+.navsection ul li :hover ul{left:0px;}
+.navsection ul li ul li{}
+.navsection ul li ul li a{}
+
+
+.slidersection{ margin-bottom:5px;}
+.contentsection
+{
+	background:#FFFFFF;
+	padding-top:5px;
+}
+.Maincontent
+{
+	background: #F6E7E1;
+    float: left;
+    margin: 1px 15px 15px 0;
+    padding: 10px;
+    width: 661px;
+}
+.about{}
+.about img{
+	height:200px;
+    padding: 5px;
+    width: 162px;
+	float: left;
+    border: 1px solid #000096;
+	}
+.about p{font-size: 15px;}
+.samepost{}
+.samepost h2,.about h2{  
+	font-size: 25px;
+    padding: 7px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid #000096;}
+.samepost img{
+    float: left;
+    width: 300px;
+    height: 220px;
+    padding-right: 10px;
+    border: 1px solid #21BDE4;
+    border-right: 0px}
+.samepost p{
+    padding: 5px;
+    text-align: justify;
+    font-size: 16px;
+}
+.readmore {}
+.readmore a{
+	float: right;
+    display: block;
+    background: #FFFFFF;
+    color: black;
+    font-size: 20px;
+    margin: 2px sold #;
+    padding: 5px;
+    text-decoration: none;
+	border-radius:3px;}
+.readmore a:hover{
+	background:#ECBAB4;
+	}
+	
+.sidebar 
+{
+	width: 244px;
+    margin-top: 1px;
+    background: #F6E7E1;
+    padding: 10px;
+    float: right;
+	
+}
+.samesidebar { margin-bottom:8px;}
+.samesidebar h2
+{   margin-bottom:2px;
+    padding:10px;
+	border-bottom: 2px solid #555555;
+    background: #24E11E;}
+.samesidebar ul{padding:0;margin:0;list-style:none;}
+.samesidebar ul li{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 2px solid;
+    border-bottom: 1px solid;
+    background: #DEFCC8;}
+.samesidebar ul li:last-child{   border-bottom: 0px solid;}
+.samesidebar ul li a{text-decoration:none; color:#8A1584}
+.samesidebar ul li a:hover{color:#EDD518}
+.footer
+{
+	height:90px;
+	background:#555555;
+text-align:center;	
+}
+.footermenu{
+    margin-top: 16px;
+	
+	}
+.footermenu ul{
+	margin:0;
+	padding:0;
+	text-align:center;
+	list-style:none;
+	   
+	}
+.footermenu ul li{
+    display: inline-block;
+	}
+.footermenu ul li a{
+	color: #EDEC18;
+	 font-size: 18px;
+	 margin-right:5px;
+	}
+.footermenu p{color: #EDEC18;}
+/*Example for items*/
+.items{
+	height: 250px;
+    width: 400px;
+    margin: 0px auto;
+    position: relative;
+	overflow:hidden;
+	
+    }
+.items img{
+    width: 400px;
+	height:250px;
+ }
+.shadow{
+	width: 100%;
+	height:100%;
+	background:rgba(0, 0, 0, .3);
+	position: absolute;
+	top:-100%;
+	transition:.5s;
+	
+}
+.items:hover .shadow{top: 0px;}
+.photo{
+	height:400px;
+	width:500px;
+	margin: 20px auto;
+	
+}
+.photo img{
+	height:400px;
+	width:500px;
+	transition:3s;
+}
+.photo:hover img{
+	/*
+	transform: rotate(360deg);
+	transform: scale(1.2);
+	*/
+	transform: skew(30deg);
+	
+}
+.googlemap{}
+ #map {
+      width: 400px;
+      height: 400px;
+    }
+
+
+
+
+
